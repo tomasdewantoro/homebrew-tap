@@ -1,9 +1,9 @@
 cask "slonview" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "5823f500d9a52da97816e1a10b0b9fabda22b814ad44ed73b87ae1539be5179e",
-         intel: "a665c210ca84340e9267a8d6100b45fdd2a27c438b0d79c8d4b4ae807f653d3a"
+  version "0.2.0"
+  sha256 arm:   "57c4dc9bbaa97c3db65f00892fc756710c67244ba16ac4c319764cd6a7a9e352",
+         intel: "23ace8912db3501b1bc00987b39a7d37cd1ecb9168a6c8eceb2075370bdaa5c0"
 
   url "https://github.com/tomasdewantoro/slonview/releases/download/v#{version}/Slonview_#{version}_#{arch}.dmg"
   name "Slonview"
